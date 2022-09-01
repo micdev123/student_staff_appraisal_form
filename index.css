@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f1f8f9;
+    transition: all 0.3s ease;
+    padding-bottom: 2rem;
+}
+
+.header {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #001726;
+}
+
+.nav {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo {
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: white;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: #0a4c5b;
+}
+
+.login_container, .register_container {
+    width: 30vw;
+    margin: 3rem auto;
+    /* background-color: red; */
+}
+
+.login_container .head, .register_container .head {
+    text-align: center;
+}
+
+.head .icon {
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+.head p {
+    font-size: 1.8rem;
+    font-weight: 550;
+    color: #4a4a4a;
+}
+
+.head h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.error {
+    text-align: center;
+    font-size: 1.3rem;
+    color: red;
+    font-weight: 550;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.form_group label {
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.form_group input {
+    width: 30rem;
+    font-size: 1.2rem;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.pass .icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.login_btn, .register_btn {
+    width: 30rem;
+    padding: 7px;
+    font-size: 1.5rem;
+    background-color: #252525;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.login_btn:hover, .register_btn:hover {
+    background-color: #3b3b3b;
+}
+
+.form p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
